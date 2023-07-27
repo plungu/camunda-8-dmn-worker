@@ -14,7 +14,7 @@
 
   <properties>
     <project.build.resourceEncoding>${project.build.sourceEncoding}</project.build.resourceEncoding>
-    <version.java>8</version.java>
+    <version.java>11</version.java>
     <java.version>${version.java}</java.version>
 
     <maven.compiler.source>${java.version}</maven.compiler.source>
@@ -51,6 +51,7 @@
     <module>test/embedded</module>
     <module>test/testcontainer</module>
 
+    <module>dmn-worker</module>
     <module>example</module>
     <module>legacy</module>
   </modules>
